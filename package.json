@@ -1,6 +1,6 @@
 {
-  "name": "react-tweet",
-  "version": "1.4.1",
+  "name": "react-tweet-component",
+  "version": "1.4.4",
   "description": "React.js component for rendering tweets as they are presented on Twitter.com",
   "main": "index.js",
   "scripts": {
@@ -13,11 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/artnotfound/react-tweet"
+    "url": "https://github.com/mohitmutha/react-tweet"
   },
-  "author": "Manny404",
+  "author": "Mohit Mutha",
   "license": "MIT",
-  "homepage": "http://art404.com",
   "peerDependencies": {
     "react": "^15.6.2",
     "react-dom": "^15.6.2",

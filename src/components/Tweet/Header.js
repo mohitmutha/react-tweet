@@ -45,8 +45,8 @@ class Header extends React.Component {
 
     return (
       <div className="header">
-        <a className="account-group" style={styles.accountGroup} href={`http://twitter.com/${data.user.screen_name}`} {...linkProps}>
-          <img className="avatar" src={data.user.profile_image_url} style={styles.avatar} />
+        <a className="account-group" style={styles.accountGroup} href={`https://twitter.com/${data.user.screen_name}`} {...linkProps}>
+          <img className="avatar" src={data.user.profile_image_url_https} style={styles.avatar} />
           <strong className="fullname" style={styles.fullname}>{data.user.name}{' '}</strong>
           <span>&rlm;</span>
           <span className="username" style={styles.username}>
@@ -55,7 +55,7 @@ class Header extends React.Component {
           </span>
         </a>
         <small className="time" style={styles.time}>
-          <a href={`http://twitter.com/${data.user.screen_name}/status/${data.id_str}`} className="tweet-timestamp" style={styles.timestamp} {...linkProps}>
+          <a href={`https://twitter.com/${data.user.screen_name}/status/${data.id_str}`} className="tweet-timestamp" style={styles.timestamp} {...linkProps}>
             {' • '}{timestamp}
           </a>
         </small>
